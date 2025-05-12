@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OVRLD - Ropa Oversize</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background: black;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1rem;
+      margin-top: 0.5rem;
+    }
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .producto {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .producto img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .producto h3 {
+      margin: 0.5rem 0;
+    }
+    .producto p {
+      font-weight: bold;
+      color: #333;
+    }
+    .whatsapp {
+      display: block;
+      width: fit-content;
+      margin: 2rem auto;
+      padding: 1rem 2rem;
+      background: #25D366;
+      color: white;
+      text-decoration: none;
+      border-radius: 50px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #222;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>OVRLD</h1>
+    <p>Moda Oversize para Hombres</p>
+  </header>
+
+  <section class="productos">
+    <div class="producto">
+      <img src="https://via.placeholder.com/300x250?text=Polera+Oversize" alt="Producto 1">
+      <h3>Polera Oversize Negra</h3>
+      <p>S/ 89.00</p>
+    </div>
+    <div class="producto">
+      <img src="https://via.placeholder.com/300x250?text=Jogger+Oversize" alt="Producto 2">
+      <h3>Jogger Oversize Beige</h3>
+      <p>S/ 110.00</p>
+    </div>
+    <div class="producto">
+      <img src="https://via.placeholder.com/300x250?text=Camisa+Oversize" alt="Producto 3">
+      <h3>Camisa Oversize Blanca</h3>
+      <p>S/ 99.00</p>
+    </div>
+    <!-- Agrega más productos aquí -->
+  </section>
+
+  <a class="whatsapp" href="https://wa.me/51XXXXXXXXX" target="_blank">Contáctame por WhatsApp</a>
+
+  <footer>
+    © 2025 OVRLD. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
